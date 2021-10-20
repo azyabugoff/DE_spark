@@ -1,0 +1,89 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.2 (Amazon.com Inc. Java 1.8.0_302)
+[debug] Load.defaultLoad until apply took 561.27306ms
+[debug]           Load.loadUnit: plugins took 88.122379ms
+[debug]           Load.loadUnit: defsScala took 0.639901ms
+[debug] [Loading] Scanning directory /home/azamat/IdeaProjects/untitled/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/azamat/IdeaProjects/untitled/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 31.839049 ms
+[debug]               Load.resolveProject(untitled-build) took 70.312264ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id untitled-build, base: /home/azamat/IdeaProjects/untitled/project, plugins: List(<none>))) took 148.265554ms
+[debug] [Loading] Done in /home/azamat/IdeaProjects/untitled/project, returning: (untitled-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 182.089534ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.432798ms
+[debug]         Load.loadUnit(file:/home/azamat/IdeaProjects/untitled/project/, ...) took 280.868718ms
+[debug]       Load.apply: load took 514.727994ms
+[debug]       Load.apply: resolveProjects took 11.761607ms
+[debug]       Load.apply: finalTransforms took 103.139891ms
+[debug]       Load.apply: config.delegates took 9.558132ms
+[debug]       Load.apply: Def.make(settings)... took 718.829261ms
+[debug]       Load.apply: structureIndex took 221.022651ms
+[debug]       Load.apply: mkStreams took 2.723323ms
+[info] loading project definition from /home/azamat/IdeaProjects/untitled/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 4507.154565ms
+[debug]     Load.loadUnit: defsScala took 0.012985ms
+[debug] [Loading] Scanning directory /home/azamat/IdeaProjects/untitled
+[debug]       Load.loadUnit: mkEval took 16.385223ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/azamat/IdeaProjects/untitled, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.070065 ms
+[info] loading settings for project untitled from build.sbt ...
+[debug]         Load.resolveProject(untitled) took 3.753181ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id untitled, base: /home/azamat/IdeaProjects/untitled, plugins: List(<none>))) took 7.845031ms
+[debug] [Loading] Done in /home/azamat/IdeaProjects/untitled, returning: (untitled)
+[debug]     Load.loadUnit: loadedProjectsRaw took 4546.351451ms
+[debug]     Load.loadUnit: cleanEvalClasses took 11.510701ms
+[debug]   Load.loadUnit(file:/home/azamat/IdeaProjects/untitled/, ...) took 9067.777042ms
+[debug] Load.apply: load took 9093.631424ms
+[debug] Load.apply: resolveProjects took 0.233261ms
+[debug] Load.apply: finalTransforms took 26.95158ms
+[debug] Load.apply: config.delegates took 0.503893ms
+[debug] Load.apply: Def.make(settings)... took 200.107842ms
+[debug] Load.apply: structureIndex took 45.908753ms
+[debug] Load.apply: mkStreams took 0.003177ms
+[info] set current project to filter (in build file:/home/azamat/IdeaProjects/untitled/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///home/azamat/.sbt/1.0/server/625b50b91736eedefaf2/sock
+[debug] Writing bsp connection file
+[info] started sbt server
